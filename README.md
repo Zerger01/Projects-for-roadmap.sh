@@ -1,3 +1,3 @@
 # Front-end Projects from Roadmap.sh
-This is my first repository. It is a test with HTML,CSS and Javascript. The main goal is to finish the Frontend Projects is Roadmap.sh
+This is my first repository. It is a test with HTML,CSS and Javascript. The main goal is to finish the Frontend Projects is Roadmap.sh (https://github.com)
 
