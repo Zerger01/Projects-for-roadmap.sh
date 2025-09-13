@@ -10,3 +10,59 @@
 .logo p{
     font-size: 30px;
 }
+
+.nav{
+    display: flex;
+    
+    & li {
+        list-style-type: none;
+        float: left;
+        padding: 10px;
+        margin-top: 22px;
+        margin-right: 10px;
+        font-size: 1.2em;
+    }
+    & a {
+        text-decoration: none;
+    } & a:visited {
+        color: inherit;
+    }
+}
+
+.central-flex{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.idk{
+    margin: 20px;
+    width: 1px;
+    background-color: #000;
+}
+.projects{
+    margin-left: 5%;
+}
+.reviews {
+    margin-left: 5%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.intro{
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.footer{
+    text-align: center;
+}
