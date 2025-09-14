@@ -1,3 +1,16 @@
+/*  
+    Add Fonts (pref: Google Fonts)  
+    Coloring (The theme is soft gold / yellow for light mode) (Font: like dark gray, black, or deep navy)
+    Dark Mode
+*/
+
+/* Global Styles */
+
+:root {
+    --background-color: #fff
+}
+
+/* Header */
 
 .logo{
     display: flex;
@@ -29,6 +42,24 @@
     }
 }
 
+/* Main / sections [Index / Homepage / Main page] */
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.intro{
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+h1{
+    font-size: 50px;
+}
+
 .central-flex{
     display: flex;
     justify-content: space-evenly;
@@ -47,6 +78,8 @@
     margin-left: 5%;
 }
 
+/* Main / sections [Side pages] */
+
 .projects-p{
     justify-content: center;
     text-align: center;
@@ -62,22 +95,11 @@
     text-align: center;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-}
-
-.intro{
-    text-align: center;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-}
-
-h1{
-    font-size: 50px;
-}
+/* Footer */
 
 .footer{
     text-align: center;
 }
+
+/* Media query */
+
